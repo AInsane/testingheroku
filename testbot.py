@@ -39,7 +39,7 @@ def main ():
         if updateID == lastUpdate(getUpdatesJson(url))['update_id']:
             sendResp(getChatID(lastUpdate(getUpdatesJson(url))),'Nice try')
             updateID +=1
-            
+
 
 if __name__ == '__main__':
     main()
